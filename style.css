@@ -1,0 +1,122 @@
+   /* box1 */
+
+   #box1 {
+       height: 35rem;
+       width: 100%;
+       border: 0.5px solid blue;
+       background-color: beige;
+   }
+
+
+   #Heading1 {
+       font-size: 2.9rem;
+       text-align: center
+   }
+
+   #bulbImg {
+       height: 15rem;
+       width: 12rem;
+       border: 2px solid green;
+       margin: 3rem;
+       display: block;
+   }
+
+   #p1b1 {
+       font-weight: bold;
+       font-size: 1.4rem;
+   }
+
+
+
+   #funcBtn1 {
+       margin-left: 4rem;
+       /* margin: 0rem 1rem; */
+       height: 1.8rem;
+       width: 4.5rem;
+
+   }
+
+
+   #funcBtn2 {
+       margin: 0rem 1rem;
+       height: 1.8rem;
+       width: 4.5rem;
+   }
+
+   /* box 2 */
+
+   #box2 {
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+       height: 30rem;
+       width: 100%;
+       border: 0.5px solid blue;
+       background-color: beige;
+
+   }
+
+   #Heading2 {
+       text-align: center;
+       font-size: 2.9rem;
+   }
+
+   #scopePara {
+       font-weight: bold;
+       font-size: 1.3rem;
+   }
+
+   #ex1,
+   #ex2 {
+       display: inline-block;
+   }
+
+   #th1,
+   #th2 {
+       background-color: black;
+       color: green;
+   }
+
+   table {
+       width: 100%;
+       /* display: inline-block; */
+   }
+
+   td,
+   th {
+       max-width: 100%;
+       border: 1px solid;
+   }
+
+   /* box - 3 */
+
+   #box3 {
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+       height: 40rem;
+       width: 100%;
+       border: 0.5px solid blue;
+       background-color: beige;
+
+   }
+
+
+   #Heading3 {
+       text-align: center;
+       font-size: 2.9rem;
+   }
+
+   #closureCode {
+      
+       border: 1px solid black;
+       width: 40%;
+       height: 22rem;
+       margin: auto;
+       text-align: center;
+       background-color: black;
+       color: green;
+   }
+
+   #code
+   {
+    margin: 2rem 0;
+   }

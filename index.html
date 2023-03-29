@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 1.At least two custom functions that you create and use in the web page. -->
+    <!-- 2. Variables that are scoped within different functions. -->
+    <!-- 3. Closures that capture and use variables from an outer function. -->
+
+    <div id="box1">
+        <h1 id="Heading1">Functions</h1>
+
+        <p id="p1b1">Below is the demonstration of function</p>
+
+       
+            <img id="bulbImg" src="https://i.postimg.cc/KjK1wL3c/bulb-off.png" alt="" srcset="">
+            <button id="funcBtn1" onclick="bulbOn()">Turn On</button>
+            <button id="funcBtn2" onclick="bulbOff()">Turn Off</button>
+        
+    </div>
+
+    <div id="box2">
+        <h1 id="Heading2">scope</h1>
+
+        <p id="scopePara">variable declared inside function have local scope, while the variable declared
+            outside the function have global scope.</p>
+        </p>
+
+        <table>
+            <tr>
+
+                <th>
+<!-- t1 -->
+<h3>If variable is declared outside the function.</h3>
+                </th>
+
+                <th>
+<!-- t2 -->
+<h3>If variable is declared inside the function.</h3>
+                </th>
+            </tr>
+                <tr>
+
+                
+                <th id="th1">
+              <!-- ex 1 -->
+              <div id="ex1">
+               
+                <p id="scopeCode1">
+                    var msg = "Hello, world!";<br>
+                    function func1()<br>
+                    {<br>
+                    document.write()msg;;<br>
+                    }<br>
+                </p>
+                <button onclick="scopeEx1()">output</button>
+                <h4 id="scopeOp1"></h4>
+    
+            </div>
+        </th>
+    <th id="th2">
+              <!-- ex -2 -->
+              <div id="ex2">
+               
+                <p id="scopeCode2">
+    
+                    function func2()<br>
+                    {<br>
+                    var msg = "Hello, world!";<br>
+                    <br>
+                    }<br>
+                    document.write()msg; <br>
+                </p>
+                <button onclick="scopeEx2()">output</button>
+                <h4 id="scopeOp2"></h4>
+    
+            </div>
+        </th>
+            </tr>
+           
+          </table>
+
+        
+
+        
+    </div>
+
+    <div id="box3">
+        <h1 id="Heading3">JavaScript Closure</h1>
+
+        <h3 style="margin: 1rem;">
+            A closure can be defined as a JavaScript feature in
+            which the inner function has access to the outer
+            function variable. In JavaScript, every time a closure
+            is created with the creation of a function.
+        </h3>
+
+        <h2 style="text-align: center;">Example</h2>
+
+<div id="closureCode">
+        <p id="code">
+
+            function fun() <br>
+            {<br>
+            var msg = "Welcome to JavaScript";<br>
+            }<br>
+            function innerfun()<br>
+            {<br>
+            return msg;<br>
+            }<br>
+            return innerfun();<br>
+
+            var output = fun();<br>
+            document.write(output);<br>
+        </p>
+
+        <button onclick="closureOp()">Output</button>
+
+        <h4 id="closureOutput"></h4>
+    </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
